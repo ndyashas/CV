@@ -1,4 +1,139 @@
-\documentclass{CV}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the CV.cls file to be in the same directory as the
+% .tex file. The CV.cls file provides the CV style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{CV} % Use the custom CV.cls style
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Yashas ND} % Your name
+% \address{305 Dharam Palace, Gohaur Baug, Bilimora 396321} % Your address
+% \address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{+91 82771 17857 \\ ndyashas@gmail.com} % Your phone number and email
+\address{\href{https://ndyashas.github.io}{ndyashas.github.io}}
+
 \begin{document}
-Placeholder.
+
+\begin{rSection}{Objective}
+  Actively seeking opportunities in Software Engineering and development.
+\end{rSection}
+
+
+\begin{rSection}{Interests}
+  \begin{flushleft}
+      Reinforcement Learning, Neuroscience, Swarm simulations, Hardware design, and Reconfigurable Computing.
+  \end{flushleft}
+\end{rSection}
+
+
+%--------------------------------------------------------------------------------
+%    Experiences
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Experience}
+  \begin{rSubsection}{CYRAN AI Solutions - Indian Institute of Technology, Delhi}{January 2020 -- June 2020}{Intern}{Delhi, India}
+    \begin{list}{$\cdot$}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+      \item Worked on various applications powered by various ML architectures such as GANs, CNNs.
+      \item Worked on software development for BUDDHI Kit, India’s first AI DIY Kit.
+    \end{list}
+  \end{rSubsection}
+
+  \begin{rSubsection}{PES University}{August 2019 -- December 2019}{Teaching Assistant}{Bengaluru, India}
+    \begin{list}{$\cdot$}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+      \item Worked as a TA for the course ``Digital Design and Computer Organization''.
+      \item Assistance during the lab sessions.
+    \end{list}
+  \end{rSubsection}
+
+  \begin{rSubsection}{NVM Research Lab - Indian Institute of Technology, Delhi}{May 2019 -- July 2019}{Summer Intern}{Delhi, India}
+    \begin{list}{$\cdot$}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+      \item Investigated image related, and audio-related ML techniques using GANs, CNNs, and RNNs.
+      \item Gained in-depth experience in ML frameworks such as TensorFlow and PyTorch.
+    \end{list}
+  \end{rSubsection}
+
+  \begin{rSubsection}{Centre for Cloud computing and Big Data}{February 2018 -- December 2019}{Research Intern}{Bengaluru, India}
+    \begin{list}{$\cdot$}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+      \item Hardware design for accelerated matrix multiplication on FPGAs.
+      \item Utilization of elastic circuits techniques for handling critical path delays.
+      \item Full flow from High-level logic description till final FPGA configuration and testing.
+    \end{list}
+  \end{rSubsection}
+
+  \begin{rSubsection}{NextGen Earth Labs (NGEL)}{December 2018 -- May 2019}{Project Intern}{Bengaluru, India}
+    \begin{list}{$\cdot$}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+      \item Developed cloud-based back-end to manage data logging and broadcasting control messages to nodes.
+      \item Developed front end to visualize air quality data in different areas.
+    \end{list}
+  \end{rSubsection}
+
+  \begin{rSubsection}{PACE PES}{August 2017 - August 2018}{Software development Intern}{Bengaluru, India}
+    \begin{list}{$\cdot$}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+      \item Developed back-end for analyzing data procured from the electric vehicle.
+      \item Development of software for vehicle control through multiple interfaces.
+    \end{list}
+  \end{rSubsection}
+  
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+
+  \begin{rSubsection}{PES University}{August 2016 - Present}{Undergraduate}{Bengaluru, India}
+    \begin{list}{}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+      \item {\bf Specialization in \textit{Systems and Core Computing}.}
+      \item Majors in Computer Science and Engineering. CGPA : {\bf 9.48 / 10}
+    \end{list}
+  \end{rSubsection}
+  
+  \begin{rSubsection}{Manasarovar Pushkarini Vidyashram Pre-University College}{August 2014 - May 2016}{Pre-University study \tiny{(12th grade)}}{Mysuru, India}
+    \begin{list}{}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+      \item Focus on Computer Science, Physics, Chemistry, and Mathematics. Score: {\bf $97$\%}.
+    \end{list}
+  \end{rSubsection}
+
+  \newpage
+  
+  \begin{rSubsection}{Mahajana Public School \scriptsize{(Under CBSE of India)}}{August 2010 - May 2014}{10th-grade}{Mysuru, India}
+    \begin{list}{}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+      \item Score: {\bf 10/10 CGPA}
+    \end{list}
+  \end{rSubsection}
+
+\end{rSection}
+
+
+
+\begin{rSection}{Misc}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Gender \ & Male\\
+Date of Birth \ & 4th April 1998\\ 
+Languages \ & English, Hindi, Gujarati\\ \\
+\end{tabular}
+
+\end{rSection}
 \end{document}

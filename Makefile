@@ -4,4 +4,4 @@ CV.pdf: CV.tex CV.cls
 .PHONY: CV.pdf
 
 clean:
-	${RM} *.aux *.log *.pdf
+	${RM} *.aux *.log *.pdf *.out
