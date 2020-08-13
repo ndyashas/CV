@@ -1,0 +1,24 @@
+name: Send CV update notification
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Notify the commit
+
+      uses: peter-evans/repository-dispatch@v1
+
+      with:
+        token: ${{ secrets.REPO_ACCESS_TOKEN }}
+        repository: ndyashas/ndyashas.github.io
+        event-type: cv_master_commit
+        client-payload: '{}'
