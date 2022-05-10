@@ -27,10 +27,11 @@
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{Yashas ND} % Your name
+\name{Yashas Nagavane Dattatreya} % Your name
 % \address{305 Dharam Palace, Gohaur Baug, Bilimora 396321} % Your address
 % \address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-\address{+91 82771 17857 \\ \href{mailto:ndyashas@gmail.com}{ndyashas@gmail.com}} % Your phone number and email
+\address{+1 323 847 3243 \\ %% +91 82771 17857 \\
+  \href{mailto:ndyashas@gmail.com}{ndyashas@gmail.com}} % Your phone number and email
 \address{\href{https://ndyashas.github.io}{ndyashas.github.io}}
 
 \begin{document}
@@ -51,9 +52,26 @@
 %    Experiences
 %-----------------------------------------------------------------------------------------------
 \begin{rSection}{Experience}
-  \begin{rSubsection}{Centre for Cloud Computing and Big Data, PES University}{August 2020 -- Present}{Junior Research Fellow}{Bengaluru, India}
+  \begin{rSubsection}{Centre for Cloud Computing and Big Data, PES University}{August 2020 -- June 2021}{RTL Design Engineer (Junior Research Fellow)}{Bengaluru, India}
     \begin{list}{$\cdot$}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
-      \item Designing hardware accelerators on FPGAs.
+      Project 1: Hardware accelerated matrix multiplier
+    \item Wrote RTL for a 64 × 64 cached matrix-multiplication accelerator on Intel Stratix 10 FPGA.
+    \item Designed recursive high-speed full-cycle LFSRs for use in caching FIFOs.
+    \item  Interfaced multiplier AFU with Intel CCI-P (Core Cache Interface).
+      This achieves state-of-the-art throughput of 2.5 TFLOPS at 309MHz.
+
+
+      Project 2: Cluster monitoring and controlling tool supporting
+      \item Unified graphical view of cluster machines, User login activities, Remote reboot/shutdown support, RAM and CPU usage monitoring.
+    \end{list}
+  \end{rSubsection}
+
+  \begin{rSubsection}{Centre for Cloud Computing and Big Data, PES University}{February 2018 -- August 2020}{Digital Logic Design Intern}{Bengaluru, India}
+    \begin{list}{$\cdot$}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+    \item Wrote RTL for a 16 × 16 matrix-multiplication accelerator on Intel Arria 10, CPU+FPGA platform.
+    \item Improved FMAX by 60\% from 250MHz to 400MHz over initial implementation Resulting in a peak of 204.8 GFLOPS.
+
+      This was awarded the "Best Poster Presentation" award at the 2020 VLSID conference.
     \end{list}
   \end{rSubsection}
   
@@ -78,20 +96,20 @@
     \end{list}
   \end{rSubsection}
 
-  \begin{rSubsection}{Centre for Cloud computing and Big Data}{February 2018 -- December 2019}{Research Intern}{Bengaluru, India}
-    \begin{list}{$\cdot$}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
-      \item Hardware design for accelerated matrix multiplication on FPGAs.
-      \item Utilization of elastic circuits techniques for handling critical path delays.
-      \item Full flow from High-level logic description till final FPGA configuration and testing.
-    \end{list}
-  \end{rSubsection}
+  %% \begin{rSubsection}{Centre for Cloud computing and Big Data}{February 2018 -- December 2019}{Research Intern}{Bengaluru, India}
+  %%   \begin{list}{$\cdot$}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+  %%     \item Hardware design for accelerated matrix multiplication on FPGAs.
+  %%     \item Utilization of elastic circuits techniques for handling critical path delays.
+  %%     \item Full flow from High-level logic description till final FPGA configuration and testing.
+  %%   \end{list}
+  %% \end{rSubsection}
 
-  \begin{rSubsection}{NextGen Earth Labs (NGEL)}{December 2018 -- May 2019}{Project Intern}{Bengaluru, India}
-    \begin{list}{$\cdot$}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
-      \item Developed cloud-based back-end to manage data logging and broadcasting control messages to nodes.
-      \item Developed front end to visualize air quality data in different areas.
-    \end{list}
-  \end{rSubsection}
+  %% \begin{rSubsection}{NextGen Earth Labs (NGEL)}{December 2018 -- May 2019}{Project Intern}{Bengaluru, India}
+  %%   \begin{list}{$\cdot$}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+  %%     \item Developed cloud-based back-end to manage data logging and broadcasting control messages to nodes.
+  %%     \item Developed front end to visualize air quality data in different areas.
+  %%   \end{list}
+  %% \end{rSubsection}
 
   \begin{rSubsection}{PACE PES}{August 2017 - August 2018}{Software development Intern}{Bengaluru, India}
     \begin{list}{$\cdot$}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
@@ -114,8 +132,10 @@
   \begin{rSubsection}{University of Southern California}{August 2021 - Present}{Graduate}{LA, CA, USA}
     \begin{list}{}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
       \item Majors in Computer Engineering. GPA : {\bf 4.0 / 4.0}
-      \item - EE 457 Computer Systems Organization - Prof. Gandhi Puvvada
-      \item - EE 477 MOS VLSI
+      \item - EE 557  Computer Systems Architecture
+      \item - EE 577a VLSI System Design - 1
+      \item - EE 457  Computer Systems Organization - Prof. Gandhi Puvvada
+      \item - EE 477  MOS VLSI
     \end{list}
   \end{rSubsection}
 
@@ -189,25 +209,82 @@
 
 \begin{rSection}{Projects}
 
-  \begin{itemize}
+  %% \begin{itemize}
 
-  \item \textbf{\href{https://ndyashas.github.io/projects/Dhwani.html}{Dhwani}} \
-    An \textit{English} to \textit{Indic} language phonetic conversion engine. 
-    
-  \item \textbf{Digital Design for Regular expression matching on FPGAs and implementation on PYNQ ZYNQ board:} \
-    Designed circuit in Xilinx Vivado and tested using IPython framework on JupyterNotebook.
+  %% \item \textbf{\href{https://ndyashas.github.io/projects/Dhwani.html}{Dhwani}} \
+  %%   An \textit{English} to \textit{Indic} language phonetic conversion engine.
 
-  \item \textbf{\href{https://github.com/ndyashas/Third-I-v2.0}{Third-I-v2.0:}} Implemented a user-space file system \
-    on Linux using FUSE. Further, implemented extended functionalities such as soft-links and hard-links in operations.
 
-  \item \textbf{Compiler for generating object code from parsing JavaScript code:} Built using ``lex'' and ``yacc'' tools, \
-    implemented iterative backend optimizer for object code optimization.
+  %% \item \textbf{} \
 
-  \item \textbf{Demonstrative CPU design:} Designed various parts such as ALU, Register File, Program Counter, and Control \
-    Unit. Integrated all of these and tested for functional correctness of the design.
-    
-  \end{itemize}
+
+  %% \end{itemize}
+
+
+  \begin{rSubsection}{\href{https://ndyashas.github.io/projects/Salaga.html}{RISC-V cores supporting rv32i instruction set}}{}{System Verilog | C++ | Verilator | GTKWave}{}
+    \begin{list}{}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+    \item Designing RISC-V cores supporting the rv32i instruction set.
+    \item Simulation of supporting modules such as L1 Instruction and data cache, and stalls.
+    \item Supporting modules written in C++ and simulated using Verilator, and debugged using GTKWave.
+    \end{list}
+  \end{rSubsection}
+
+  \begin{rSubsection}{5-stage pipelined MIPS Processor Design}{}{Verilog | ModelSim}{}
+    \begin{list}{}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+    \item Designed a pipelined 5-stage CPU with an internally forwarding register file to execute MIPS R-type, Branch, and mem instructions using RTL (Register Transfer Level) coding in Verilog and simulating on ModelSim.
+    \item Design included forwarding and hazard detection unit to prevent the Read-After-Write data dependencies by stalling for the early and late branch designs.
+    \end{list}
+  \end{rSubsection}
+
+  \begin{rSubsection}{Digital Spiking Neuron Design}{}{Cadence Virtuoso}{}
+    \begin{list}{}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+    \item Designed and implemented schematic and layout of a digital circuit that mimics a spiking neuron in with Cadence Virtuoso.
+    \item Simulated the digital spiking neuron on SPECTRE and performed the timing analysis of the signals. Validated the physical design with DRC and LVS and optimized it to have a minimum area-delay product.
+    \end{list}
+  \end{rSubsection}
+
+\newpage
   
+  \begin{rSubsection}{\href{https://github.com/SofDevs-Do/R-LMON}{R-LMON Systems Monitoring Tool for cluster systems}}{}{Bash | Python | JavaScript}{}
+    \begin{list}{}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+      \item Cluster monitoring and controlling tool. Used at Center for Cloud Computing and Big Data, PES University, and now at AMD Bangalore.
+      \item Unified graphical view of cluster machines, User login activities, Remote reboot/shutdown support, RAM and CPU usage monitoring.
+    \end{list}
+  \end{rSubsection}
+
+  \begin{rSubsection}{High-speed full-cycle recursive Linear-Feedback-Shift-Registers}{}{iverilog | GTKWave}{}
+    \begin{list}{}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+    \item Wrote recursive HLS design for a full-cycle / arbitrary-cycle Linear Feedback Shift Register.
+    \item Test scripts in Python for functional verification.
+    \item Written in Flo-Hask HLS framework in Haskell, developed by Dr. Reetinder Sidhu.
+    \item Simulation and waveform viewing done was done using iverilog, and GTKWave.
+    \end{list}
+  \end{rSubsection}
+
+  \begin{rSubsection}{Regular expression matching on FPGA}{}{Vivado | Verilog | iverilog | GTKWave}{}
+    \begin{list}{}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+    \item Non-deterministic Finite Automata-based regular expression matching.
+    \item Tested on PYNQ ZYNQ FPGA board.
+    \item Written in Flo-Hask HLS framework in Haskell, developed by Dr. Reetinder Sidhu.
+    \end{list}
+  \end{rSubsection}
+
+  \begin{rSubsection}{\textbf{\href{https://github.com/ndyashas/Third-I-v2.0}{Third-I-v2.0:}}}{}{C | FUSE}{}
+    \begin{list}{}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+    \item Implemented a user-space file system on Linux using FUSE.
+    \item Implemented extended functionalities such as soft-links and hard-links in operations.
+    \end{list}
+  \end{rSubsection}
+
+  %% \item \textbf{\href{https://ndyashas.github.io/projects/Dhwani.html}{Dhwani}} \
+  %%   An \textit{English} to \textit{Indic} language phonetic conversion engine.
+
+  \begin{rSubsection}{\textbf{\href{https://ndyashas.github.io/projects/Dhwani.html}{Dhwani}}}{}{Python}{}
+    \begin{list}{}{\footnotesize}\itemsep -0.5em \vspace{-0.5em}
+    \item An \textit{English} to \textit{Indic} language phonetic conversion tool.
+    \end{list}
+  \end{rSubsection}
+
 \end{rSection}
 
 
@@ -218,6 +295,8 @@
 \begin{rSection}{Achievements}
 
   \begin{itemize}
+
+  \item \textbf{MS Honors Program} admitted to the MS Honors program at USC where < 5\% of students are admitted for maintaining a 4.0 GPA.
 
   \item Recipient of \textit{Prof. CNR Rao Merit Scholarship} from PES University from the past three years.
 
