@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Notify the commit
+    - name: Notify the commit to website repo
 
-      uses: peter-evans/repository-dispatch@v1
+      uses: peter-evans/repository-dispatch@v2
 
       with:
         token: ${{ secrets.REPO_ACCESS_TOKEN }}
